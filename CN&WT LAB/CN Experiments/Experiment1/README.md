@@ -1,7 +1,7 @@
 # Experiment1
 
 ## Aim:
-Implement the data link layer framing methods such as character, character-stuffing and bit
+Implement the data link layer framing methods such as character count, character-stuffing and bit
 stuffing.
 
 ### Steps/Procedure:
