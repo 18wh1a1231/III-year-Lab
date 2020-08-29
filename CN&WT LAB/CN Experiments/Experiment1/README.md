@@ -18,10 +18,29 @@ stuffing.
 
 OUTPUT:
 
-![output](Character_count.png)
+ ![output](Character_count.png)
+
 
 
 ### 2.Character stuffing
+
+1.Read the number of frames and data in each frame.
+
+2.At the sender side, add the starting delimiter as "DLESTX" and ending delimiter as "DLEETX".If the original data contains "DLE" as sub-string, add an extra "DLE" before it.
+
+3.At the receiver side, remove the delimiters and extra "DLE's" added at the sender side.This becomes the original data sent by the sender.
+
+4.we use delimiters to help receiver know start and end points of the data sent.
+
+OUTPUT:
+
+ ![output](Character_Stuffing.png)
+
+
+
+
+
+### 3.Bit stuffing
 
 1.Read the number of frames and data in each frame.
 
@@ -29,11 +48,13 @@ OUTPUT:
 
 3.At the sender side, add flag bits at the start and end of stuffed data and send it to the receiver.
 
-4.At the receiver side, de-stuff(remove the stuffed zeroes after five consecutive ones)  the received data and remove the flag bits.
+4.At the receiver side, de-stuff(remove the stuffed zeroes after five consecutive ones) the received data and remove the flag bits.
 
 5.This becomes the original data sent by the sender.
 
 
 
-OUTPUT
-![output](
+
+OUTPUT :
+
+![output](Bit_Stuffing.png)
