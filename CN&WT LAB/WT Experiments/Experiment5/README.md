@@ -19,3 +19,10 @@ g) Order Conformation
 
 OUTPUT:
 
+a) Home page
+![output](Home.png)
+
+b) Registration
+![output](Register1.png)
+![output](Register2.png)
+![output](Register3.png)
