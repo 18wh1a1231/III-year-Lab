@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ {
+  box-sizing: border-box;
+  align:center;
+}
+
+.container {
+  
+  padding: 16px;
+  background-color: white;
+}
+
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+  width: 100%;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+input[type=text], input[type=password],input[type=email],input[type=tel],input[type=radio],input[type=date] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+.centered {
+    margin: 0 auto;
+    text-align: left;
+    width: 800px;
+}
+
+
+
+</style>
+</head>
+<body>
+
+
+<div class="centered">
+<h1>Register</h1>
+<hr>
+
+<label for="username"><b>User Name</b></label></br>
+<input type="text" placeholder="Enter User Name" name="username">
+</br>
+</br>
+
+<label for="firstname"><b>First Name</b></label></br>
+<input type="text" placeholder="Enter First Name" name="firstname">
+</br>
+</br>
+
+<label for="lastname"><b>Last Name</b></label></br>
+<input type="text" placeholder="Enter last Name" name="lastname">
+</br>
+</br>
+
+<label for="emailid"><b>Email</b></label></br>
+<input type="email" placeholder="Enter email id" name="emailid">
+</br>
+</br>
+
+<label for="phone"><b>Phone</b></label></br>
+<input type="text" placeholder="Enter Phone number" name="phone">
+</br>
+</br>
+
+<label for="password"><b>Password</b></label></br>
+<input type="password" placeholder="Enter password" name="password">
+</br>
+</br>
+
+<label for="password-rep"><b>Repeat password</b></label></br>
+<input type="password" placeholder="Enter password again" name="password-rep">
+</br>
+</br>
+
+<label for="address"><b>Address</b></label></br>
+<input type="text" placeholder="Enter address" name="address">
+</br>
+</br>
+
+<label for="gender"><b>Select gender</b><label></br>
+<label for="male">Male</label><br>
+<input type="radio"  name="gender" value="male">
+<label for="female">Female</label><br>
+<input type="radio"  name="gender" value="female">
+<label for="other">Other</label>
+<input type="radio"  name="gender" value="other">
+</br>
+</br>
+
+<label for="hobbies"><b>Select hobbies</b></label><br>
+<input type="checkbox" name="hobbies" value="Reading">
+<label for="hobbies">Reading</label><br>
+<input type="checkbox" name="hobbies" value="Dancing">
+<label for="hobbies">Dancing</label><br>
+<input type="checkbox" name="hobbies" value="Drawing">
+<label for="hobbies">Drawing</label><br>
+</br>
+</br>
+
+<label for="birthday"><b>Date of birth</b></label></br>
+<input type="date"  name="birthday">
+</br>
+
+<button type="submit" class="registerbtn" >Register</button>
+</div>
+</body>
+</html>
